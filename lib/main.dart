@@ -22,11 +22,11 @@ void main() async {
   // });
   doWhenWindowReady(() {
     final win = appWindow;
-    const initialSize = Size(600, 450);
+    const initialSize = Size(1920, 1080);
     win.minSize = initialSize;
     win.size = initialSize;
     win.alignment = Alignment.center;
-    win.title = "Custom window with Flutter";
+    win.title = "News Desktop App";
     win.show();
   });
   runApp(const MyApp());
